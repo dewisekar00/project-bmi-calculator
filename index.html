@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Check your BMI</h1>
+        <p>Enter your weight and height bellow to check your BMI result</p>
+    </div>
+    <div class="input-wrap">
+        <label for="kg">Put your weight in here:</label>
+        <input type="number" id="kg" name="weight(kg)"   placeholder="kg"><br><br>
+        <label for="cm">Put your height in here:</label>
+        <input type="number" id="cm" name="height(cm)" placeholder="cm"><br><br>
+        <button id="calculateBtn" type="button">calculate BMI</button>
+    </div>
+    <div class="wrap-result">
+
+        <div class="result-container">
+         <h3 id="warning">
+
+         </h3>
+            <div class="result-bmi" ;>
+
+                <h3>Your BMI is <span id="result-num">
+                  
+                </span> which means you are <span  id="result-text">
+                  
+                </span></h3>
+                  </div>
+        </div>
+     
+    </div>
+
+    <footer>2023 nanamint. All Rights Reserved</footer>
+    <script src="script.js"></script>
+
+</body>
+</html>
