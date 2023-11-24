@@ -9,6 +9,8 @@ document.getElementById('calculateBtn').addEventListener('click', function() {
     if (beratkg === 0 || tinggiCm === 0 || isNaN(beratkg) || isNaN(tinggiCm)) {
         let warning = document.getElementById("warning");
         warning.innerHTML = "Yuk Isi dulu angkanya";
+    }else if(beratkg < 0 || tinggiCm < 0){
+        alert('masukan angka yang valid!');
     }
     else{
        warning.style.display = "none";
